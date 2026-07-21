@@ -1,139 +1,229 @@
 {
-  "exercises": {
+  "catalog": {
     "push": [
       {
-        "id": "push-bench",
-        "tag": "PL",
-        "name": "Bench Press",
-        "scheme": "3x8"
+        "id": "push-bb-bench-press",
+        "tag": "BB",
+        "name": "Bench Press"
       },
       {
-        "id": "push-ohp",
-        "tag": "PL",
-        "name": "OHP",
-        "scheme": "3x8"
+        "id": "push-bb-bench-press-decline",
+        "tag": "BB",
+        "name": "Bench Press (Decline)"
       },
       {
-        "id": "push-incline",
-        "tag": "DB",
-        "name": "Incline Press",
-        "scheme": "3x10"
+        "id": "push-bb-bench-press-incline",
+        "tag": "BB",
+        "name": "Bench Press (Incline)"
       },
       {
-        "id": "push-tricep",
+        "id": "push-mc-chest-fly",
         "tag": "MC",
-        "name": "Tricep Pushdown",
-        "scheme": "3x10"
+        "name": "Chest Fly"
       },
       {
-        "id": "push-lateral",
+        "id": "push-db-chest-fly",
         "tag": "DB",
-        "name": "Lateral Raise",
-        "scheme": "3x12"
+        "name": "Chest Fly"
+      },
+      {
+        "id": "push-db-chest-fly-incline",
+        "tag": "DB",
+        "name": "Chest Fly (Incline)"
+      },
+      {
+        "id": "push-db-chest-press",
+        "tag": "DB",
+        "name": "Chest Press"
+      },
+      {
+        "id": "push-mc-chest-press",
+        "tag": "MC",
+        "name": "Chest Press"
+      },
+      {
+        "id": "push-db-chest-press-incline",
+        "tag": "DB",
+        "name": "Chest Press (Incline)"
+      },
+      {
+        "id": "push-mc-dip",
+        "tag": "MC",
+        "name": "Dip"
+      },
+      {
+        "id": "push-bw-dip",
+        "tag": "BW",
+        "name": "Dip"
+      },
+      {
+        "id": "push-mc-lateral-raise",
+        "tag": "MC",
+        "name": "Lateral Raise"
+      },
+      {
+        "id": "push-mc-overhead-press",
+        "tag": "MC",
+        "name": "Overhead Press"
+      },
+      {
+        "id": "push-mc-pectoral-fly",
+        "tag": "MC",
+        "name": "Pectoral Fly"
+      },
+      {
+        "id": "push-bw-press-up",
+        "tag": "BW",
+        "name": "Press Up"
+      },
+      {
+        "id": "push-mc-tricep-extension",
+        "tag": "MC",
+        "name": "Tricep Extension"
       }
     ],
     "pull": [
       {
-        "id": "pull-deadlift",
-        "tag": "PL",
-        "name": "Deadlift",
-        "scheme": "3x5"
-      },
-      {
-        "id": "pull-row",
-        "tag": "PL",
-        "name": "Barbell Row",
-        "scheme": "3x8"
-      },
-      {
-        "id": "pull-pullup",
-        "tag": "BW",
-        "name": "Pull-ups",
-        "scheme": "3x8"
-      },
-      {
-        "id": "pull-lat",
-        "tag": "MC",
-        "name": "Lat Pulldown",
-        "scheme": "3x10"
-      },
-      {
-        "id": "pull-curl",
+        "id": "pull-db-bicep-curl",
         "tag": "DB",
-        "name": "Bicep Curl",
-        "scheme": "3x10"
+        "name": "Bicep Curl"
+      },
+      {
+        "id": "pull-cb-face-pull",
+        "tag": "CB",
+        "name": "Face Pull"
+      },
+      {
+        "id": "pull-db-hammer-curl",
+        "tag": "DB",
+        "name": "Hammer Curl"
+      },
+      {
+        "id": "pull-ez-preacher-curl",
+        "tag": "EZ",
+        "name": "Preacher Curl"
+      },
+      {
+        "id": "pull-cb-pull-down-narrow",
+        "tag": "CB",
+        "name": "Pull Down (Narrow)"
+      },
+      {
+        "id": "pull-cb-pull-down-wide",
+        "tag": "CB",
+        "name": "Pull Down (Wide)"
+      },
+      {
+        "id": "pull-bw-pull-up-neutral",
+        "tag": "BW",
+        "name": "Pull Up (Neutral)"
+      },
+      {
+        "id": "pull-bw-pull-up-wide",
+        "tag": "BW",
+        "name": "Pull Up (Wide)"
+      },
+      {
+        "id": "pull-bb-reverse-curl",
+        "tag": "BB",
+        "name": "Reverse Curl"
+      },
+      {
+        "id": "pull-bb-row-bent-over",
+        "tag": "BB",
+        "name": "Row (Bent Over)"
+      },
+      {
+        "id": "pull-mc-row-seated",
+        "tag": "MC",
+        "name": "Row (Seated)"
+      },
+      {
+        "id": "pull-bb-row-upright",
+        "tag": "BB",
+        "name": "Row (Upright)"
+      },
+      {
+        "id": "pull-db-wrist-rotation",
+        "tag": "DB",
+        "name": "Wrist Rotation"
       }
     ],
     "legs": [
       {
-        "id": "legs-press",
-        "tag": "MC",
-        "name": "Leg Press",
-        "scheme": "3x10"
-      },
-      {
-        "id": "legs-ext",
+        "id": "legs-pl-back-extension",
         "tag": "PL",
-        "name": "Back Extension",
-        "scheme": "3x8"
+        "name": "Back Extension"
       },
       {
-        "id": "legs-hipthrust",
+        "id": "legs-mc-calf-raise",
         "tag": "MC",
-        "name": "Hip Thrust",
-        "scheme": "3x8"
+        "name": "Calf Raise"
       },
       {
-        "id": "legs-hamcurl",
+        "id": "legs-mc-hamstring-curl",
         "tag": "MC",
-        "name": "Hamstring Curl",
-        "scheme": "3x10"
+        "name": "Hamstring Curl"
       },
       {
-        "id": "legs-calf",
+        "id": "legs-mc-hip-abduction",
         "tag": "MC",
-        "name": "Calf Raise",
-        "scheme": "3x10"
+        "name": "Hip Abduction"
       },
       {
-        "id": "legs-hipabd",
+        "id": "legs-mc-hip-thrust",
         "tag": "MC",
-        "name": "Hip Abduction",
-        "scheme": "3x12"
+        "name": "Hip Thrust"
       },
       {
-        "id": "legs-legext",
+        "id": "legs-mc-leg-extension",
         "tag": "MC",
-        "name": "Leg Extension",
-        "scheme": "3x10"
+        "name": "Leg Extension"
+      },
+      {
+        "id": "legs-mc-leg-press",
+        "tag": "MC",
+        "name": "Leg Press"
+      },
+      {
+        "id": "legs-bb-russian-dead-lift",
+        "tag": "BB",
+        "name": "Russian Dead Lift"
+      },
+      {
+        "id": "legs-bb-squat",
+        "tag": "BB",
+        "name": "Squat"
       }
     ],
     "core": [
       {
-        "id": "core-situp",
-        "tag": "DB",
-        "name": "Sit up",
-        "scheme": "1x10"
-      },
-      {
-        "id": "core-rtwist",
-        "tag": "DB",
-        "name": "Russian twist",
-        "scheme": "1x10"
-      },
-      {
-        "id": "core-legraise",
+        "id": "core-bw-leg-raise",
         "tag": "BW",
-        "name": "Leg raise",
-        "scheme": "1x10"
+        "name": "Leg Raise"
       },
       {
-        "id": "core-sidebend",
+        "id": "core-db-russian-twist",
+        "tag": "DB",
+        "name": "Russian Twist"
+      },
+      {
+        "id": "core-kb-side-bend",
         "tag": "KB",
-        "name": "Side bend",
-        "scheme": "1x10"
+        "name": "Side Bend"
+      },
+      {
+        "id": "core-db-sit-up",
+        "tag": "DB",
+        "name": "Sit Up"
       }
     ]
+  },
+  "exercises": {
+    "push": [],
+    "pull": [],
+    "legs": [],
+    "core": []
   },
   "maxWeights": {},
   "history": {
@@ -143,102 +233,6 @@
     "core": []
   },
   "drafts": {
-    "push": {
-      "push-bench": {
-        "sets": [
-          {
-            "reps": "8",
-            "weight": "",
-            "done": false
-          },
-          {
-            "reps": "8",
-            "weight": "",
-            "done": false
-          },
-          {
-            "reps": "8",
-            "weight": "",
-            "done": false
-          }
-        ]
-      },
-      "push-ohp": {
-        "sets": [
-          {
-            "reps": "8",
-            "weight": "",
-            "done": false
-          },
-          {
-            "reps": "8",
-            "weight": "",
-            "done": false
-          },
-          {
-            "reps": "8",
-            "weight": "",
-            "done": false
-          }
-        ]
-      },
-      "push-incline": {
-        "sets": [
-          {
-            "reps": "10",
-            "weight": "",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "",
-            "done": false
-          }
-        ]
-      },
-      "push-tricep": {
-        "sets": [
-          {
-            "reps": "10",
-            "weight": "",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "",
-            "done": false
-          }
-        ]
-      },
-      "push-lateral": {
-        "sets": [
-          {
-            "reps": "12",
-            "weight": "",
-            "done": false
-          },
-          {
-            "reps": "12",
-            "weight": "",
-            "done": false
-          },
-          {
-            "reps": "12",
-            "weight": "",
-            "done": false
-          }
-        ]
-      }
-    }
+    "push": {}
   }
 }
