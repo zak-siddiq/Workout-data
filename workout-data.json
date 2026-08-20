@@ -85,6 +85,16 @@
         "id": "push-lateral-raise-1784984666725",
         "tag": "CB",
         "name": "Lateral Raise"
+      },
+      {
+        "id": "push-lateral-raise-1787262564371",
+        "tag": "DB",
+        "name": "Lateral Raise"
+      },
+      {
+        "id": "push-overhead-press-1787262588400",
+        "tag": "BB",
+        "name": "Overhead Press"
       }
     ],
     "pull": [
@@ -227,21 +237,27 @@
   "exercises": {
     "push": [
       {
-        "id": "push-mc-chest-press",
-        "tag": "MC",
+        "id": "push-db-chest-press",
+        "tag": "DB",
         "name": "Chest Press",
         "scheme": "3x10"
       },
       {
-        "id": "push-mc-overhead-press",
-        "tag": "MC",
-        "name": "Overhead Press",
+        "id": "push-db-chest-fly",
+        "tag": "DB",
+        "name": "Chest Fly",
         "scheme": "3x10"
       },
       {
-        "id": "push-mc-pectoral-fly",
-        "tag": "MC",
-        "name": "Pectoral Fly",
+        "id": "push-lateral-raise-1787262564371",
+        "tag": "DB",
+        "name": "Lateral Raise",
+        "scheme": "3x10"
+      },
+      {
+        "id": "push-overhead-press-1787262588400",
+        "tag": "BB",
+        "name": "Overhead Press",
         "scheme": "3x10"
       },
       {
@@ -251,8 +267,8 @@
         "scheme": "3x10"
       },
       {
-        "id": "push-mc-dip",
-        "tag": "MC",
+        "id": "push-bw-dip",
+        "tag": "BW",
         "name": "Dip",
         "scheme": "3x10"
       },
@@ -260,12 +276,6 @@
         "id": "push-bw-press-up",
         "tag": "BW",
         "name": "Press Up",
-        "scheme": "3x10"
-      },
-      {
-        "id": "push-lateral-raise-1784984666725",
-        "tag": "CB",
-        "name": "Lateral Raise",
         "scheme": "3x10"
       }
     ],
@@ -277,12 +287,162 @@
     "push-mc-chest-press": 59,
     "push-mc-overhead-press": 23,
     "push-mc-pectoral-fly": 36,
-    "push-mc-tricep-extension": 59,
+    "push-mc-tricep-extension": 60,
     "push-mc-dip": 64,
-    "push-lateral-raise-1784984666725": 5.7
+    "push-lateral-raise-1784984666725": 5.7,
+    "push-db-chest-press": 40,
+    "push-db-chest-fly": 40,
+    "push-lateral-raise-1787262564371": 10,
+    "push-overhead-press-1787262588400": 20
   },
   "history": {
     "push": [
+      {
+        "date": "2026-08-20T21:51:35.720Z",
+        "type": "push",
+        "entries": [
+          {
+            "exerciseId": "push-db-chest-press",
+            "tag": "DB",
+            "name": "Chest Press",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "40"
+              },
+              {
+                "reps": "10",
+                "weight": "40"
+              },
+              {
+                "reps": "10",
+                "weight": "40"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-db-chest-fly",
+            "tag": "DB",
+            "name": "Chest Fly",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "40"
+              },
+              {
+                "reps": "10",
+                "weight": "40"
+              },
+              {
+                "reps": "10",
+                "weight": "40"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-lateral-raise-1787262564371",
+            "tag": "DB",
+            "name": "Lateral Raise",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "8"
+              },
+              {
+                "reps": "10",
+                "weight": "8"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-overhead-press-1787262588400",
+            "tag": "BB",
+            "name": "Overhead Press",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "20"
+              },
+              {
+                "reps": "10",
+                "weight": "20"
+              },
+              {
+                "reps": "10",
+                "weight": "20"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-mc-tricep-extension",
+            "tag": "MC",
+            "name": "Tricep Extension",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "60"
+              },
+              {
+                "reps": "10",
+                "weight": "60"
+              },
+              {
+                "reps": "10",
+                "weight": "60"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-bw-dip",
+            "tag": "BW",
+            "name": "Dip",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-bw-press-up",
+            "tag": "BW",
+            "name": "Press Up",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              }
+            ]
+          }
+        ]
+      },
       {
         "date": "2026-07-25T13:07:16.106Z",
         "type": "push",
@@ -436,97 +596,116 @@
   },
   "drafts": {
     "push": {
-      "push-mc-chest-press": {
-        "sets": [
-          {
-            "reps": "10",
-            "weight": "59",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "59",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "59",
-            "done": false
-          }
-        ]
-      },
-      "push-mc-overhead-press": {
-        "sets": [
-          {
-            "reps": "10",
-            "weight": "23",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "23",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "23",
-            "done": false
-          }
-        ]
-      },
-      "push-mc-pectoral-fly": {
-        "sets": [
-          {
-            "reps": "10",
-            "weight": "36",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "36",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "36",
-            "done": false
-          }
-        ]
-      },
-      "push-mc-dip": {
-        "sets": [
-          {
-            "reps": "10",
-            "weight": "64",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "64",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "64",
-            "done": false
-          }
-        ]
-      },
       "push-mc-tricep-extension": {
         "sets": [
           {
             "reps": "10",
-            "weight": "59",
+            "weight": "60",
             "done": false
           },
           {
             "reps": "10",
-            "weight": "59",
+            "weight": "60",
             "done": false
           },
           {
             "reps": "10",
-            "weight": "59",
+            "weight": "60",
+            "done": false
+          }
+        ]
+      },
+      "push-db-chest-press": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "40",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "40",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "40",
+            "done": false
+          }
+        ]
+      },
+      "push-db-chest-fly": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "40",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "40",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "40",
+            "done": false
+          }
+        ]
+      },
+      "push-lateral-raise-1787262564371": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          }
+        ]
+      },
+      "push-bw-dip": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "",
+            "done": false
+          }
+        ]
+      },
+      "push-overhead-press-1787262588400": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "20",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "20",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "20",
             "done": false
           }
         ]
@@ -546,25 +725,6 @@
           {
             "reps": "10",
             "weight": "",
-            "done": false
-          }
-        ]
-      },
-      "push-lateral-raise-1784984666725": {
-        "sets": [
-          {
-            "reps": "10",
-            "weight": "5.7",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "5.7",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "5.7",
             "done": false
           }
         ]
