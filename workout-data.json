@@ -280,7 +280,50 @@
       }
     ],
     "pull": [],
-    "legs": [],
+    "legs": [
+      {
+        "id": "legs-mc-leg-press",
+        "tag": "MC",
+        "name": "Leg Press",
+        "scheme": "3x10"
+      },
+      {
+        "id": "legs-mc-hamstring-curl",
+        "tag": "MC",
+        "name": "Hamstring Curl",
+        "scheme": "3x10"
+      },
+      {
+        "id": "legs-mc-hip-abduction",
+        "tag": "MC",
+        "name": "Hip Abduction",
+        "scheme": "3x12"
+      },
+      {
+        "id": "legs-pl-back-extension",
+        "tag": "PL",
+        "name": "Back Extension",
+        "scheme": "3x10"
+      },
+      {
+        "id": "legs-mc-calf-raise",
+        "tag": "MC",
+        "name": "Calf Raise",
+        "scheme": "3x10"
+      },
+      {
+        "id": "legs-mc-leg-extension",
+        "tag": "MC",
+        "name": "Leg Extension",
+        "scheme": "3x10"
+      },
+      {
+        "id": "legs-mc-hip-thrust",
+        "tag": "MC",
+        "name": "Hip Thrust",
+        "scheme": "3x8"
+      }
+    ],
     "core": []
   },
   "maxWeights": {
@@ -293,7 +336,14 @@
     "push-db-chest-press": 40,
     "push-db-chest-fly": 40,
     "push-lateral-raise-1787262564371": 10,
-    "push-overhead-press-1787262588400": 20
+    "push-overhead-press-1787262588400": 20,
+    "legs-mc-leg-press": 80,
+    "legs-mc-hamstring-curl": 36,
+    "legs-mc-hip-abduction": 39,
+    "legs-pl-back-extension": 20,
+    "legs-mc-calf-raise": 93,
+    "legs-mc-leg-extension": 52,
+    "legs-mc-hip-thrust": 50
   },
   "history": {
     "push": [
@@ -591,7 +641,154 @@
       }
     ],
     "pull": [],
-    "legs": [],
+    "legs": [
+      {
+        "date": "2026-08-21T19:09:12.920Z",
+        "type": "legs",
+        "entries": [
+          {
+            "exerciseId": "legs-mc-leg-press",
+            "tag": "MC",
+            "name": "Leg Press",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "80"
+              },
+              {
+                "reps": "10",
+                "weight": "80"
+              },
+              {
+                "reps": "10",
+                "weight": "80"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-hamstring-curl",
+            "tag": "MC",
+            "name": "Hamstring Curl",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "36"
+              },
+              {
+                "reps": "10",
+                "weight": "36"
+              },
+              {
+                "reps": "10",
+                "weight": "36"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-hip-abduction",
+            "tag": "MC",
+            "name": "Hip Abduction",
+            "scheme": "3x12",
+            "sets": [
+              {
+                "reps": "12",
+                "weight": "39"
+              },
+              {
+                "reps": "12",
+                "weight": "39"
+              },
+              {
+                "reps": "12",
+                "weight": "39"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-pl-back-extension",
+            "tag": "PL",
+            "name": "Back Extension",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "20"
+              },
+              {
+                "reps": "10",
+                "weight": "20"
+              },
+              {
+                "reps": "10",
+                "weight": "20"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-calf-raise",
+            "tag": "MC",
+            "name": "Calf Raise",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "93"
+              },
+              {
+                "reps": "10",
+                "weight": "93"
+              },
+              {
+                "reps": "10",
+                "weight": "93"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-leg-extension",
+            "tag": "MC",
+            "name": "Leg Extension",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "52"
+              },
+              {
+                "reps": "10",
+                "weight": "52"
+              },
+              {
+                "reps": "10",
+                "weight": "52"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-hip-thrust",
+            "tag": "MC",
+            "name": "Hip Thrust",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "50"
+              },
+              {
+                "reps": "8",
+                "weight": "50"
+              },
+              {
+                "reps": "8",
+                "weight": "50"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "core": []
   },
   "drafts": {
@@ -730,6 +927,142 @@
         ]
       }
     },
-    "pull": {}
+    "pull": {},
+    "legs": {
+      "legs-mc-leg-press": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "80",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "80",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "80",
+            "done": false
+          }
+        ]
+      },
+      "legs-mc-hamstring-curl": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "36",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "36",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "36",
+            "done": false
+          }
+        ]
+      },
+      "legs-mc-hip-abduction": {
+        "sets": [
+          {
+            "reps": "12",
+            "weight": "39",
+            "done": false
+          },
+          {
+            "reps": "12",
+            "weight": "39",
+            "done": false
+          },
+          {
+            "reps": "12",
+            "weight": "39",
+            "done": false
+          }
+        ]
+      },
+      "legs-mc-hip-thrust": {
+        "sets": [
+          {
+            "reps": "8",
+            "weight": "50",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "50",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "50",
+            "done": false
+          }
+        ]
+      },
+      "legs-mc-leg-extension": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "52",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "52",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "52",
+            "done": false
+          }
+        ]
+      },
+      "legs-pl-back-extension": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "20",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "20",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "20",
+            "done": false
+          }
+        ]
+      },
+      "legs-mc-calf-raise": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "93",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "93",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "93",
+            "done": false
+          }
+        ]
+      }
+    },
+    "core": {}
   }
 }
