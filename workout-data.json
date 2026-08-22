@@ -279,7 +279,50 @@
         "scheme": "3x10"
       }
     ],
-    "pull": [],
+    "pull": [
+      {
+        "id": "pull-bw-pull-up-neutral",
+        "tag": "BW",
+        "name": "Pull Up (Neutral)",
+        "scheme": "3x6"
+      },
+      {
+        "id": "pull-bb-row-bent-over",
+        "tag": "BB",
+        "name": "Row (Bent Over)",
+        "scheme": "3x8"
+      },
+      {
+        "id": "pull-cb-pull-down-wide",
+        "tag": "CB",
+        "name": "Pull Down (Wide)",
+        "scheme": "3x10"
+      },
+      {
+        "id": "pull-mc-row-seated",
+        "tag": "MC",
+        "name": "Row (Seated)",
+        "scheme": "3x8"
+      },
+      {
+        "id": "pull-cb-face-pull",
+        "tag": "CB",
+        "name": "Face Pull",
+        "scheme": "3x10"
+      },
+      {
+        "id": "pull-ez-preacher-curl",
+        "tag": "EZ",
+        "name": "Preacher Curl",
+        "scheme": "3x8"
+      },
+      {
+        "id": "pull-db-hammer-curl",
+        "tag": "DB",
+        "name": "Hammer Curl",
+        "scheme": "3x8"
+      }
+    ],
     "legs": [
       {
         "id": "legs-mc-leg-press",
@@ -343,7 +386,13 @@
     "legs-pl-back-extension": 20,
     "legs-mc-calf-raise": 93,
     "legs-mc-leg-extension": 52,
-    "legs-mc-hip-thrust": 50
+    "legs-mc-hip-thrust": 50,
+    "pull-bb-row-bent-over": 50,
+    "pull-cb-pull-down-wide": 39,
+    "pull-mc-row-seated": 41,
+    "pull-cb-face-pull": 19.3,
+    "pull-ez-preacher-curl": 26.5,
+    "pull-db-hammer-curl": 10
   },
   "history": {
     "push": [
@@ -640,7 +689,154 @@
         ]
       }
     ],
-    "pull": [],
+    "pull": [
+      {
+        "date": "2026-08-22T19:09:41.829Z",
+        "type": "pull",
+        "entries": [
+          {
+            "exerciseId": "pull-bw-pull-up-neutral",
+            "tag": "BW",
+            "name": "Pull Up (Neutral)",
+            "scheme": "3x6",
+            "sets": [
+              {
+                "reps": "6",
+                "weight": ""
+              },
+              {
+                "reps": "6",
+                "weight": ""
+              },
+              {
+                "reps": "6",
+                "weight": ""
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-bb-row-bent-over",
+            "tag": "BB",
+            "name": "Row (Bent Over)",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "50"
+              },
+              {
+                "reps": "8",
+                "weight": "50"
+              },
+              {
+                "reps": "8",
+                "weight": "50"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-cb-pull-down-wide",
+            "tag": "CB",
+            "name": "Pull Down (Wide)",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "39"
+              },
+              {
+                "reps": "8",
+                "weight": "39"
+              },
+              {
+                "reps": "10",
+                "weight": "39"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-mc-row-seated",
+            "tag": "MC",
+            "name": "Row (Seated)",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "41"
+              },
+              {
+                "reps": "8",
+                "weight": "41"
+              },
+              {
+                "reps": "8",
+                "weight": "41"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-cb-face-pull",
+            "tag": "CB",
+            "name": "Face Pull",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "19.3"
+              },
+              {
+                "reps": "10",
+                "weight": "19.3"
+              },
+              {
+                "reps": "10",
+                "weight": "19.3"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-ez-preacher-curl",
+            "tag": "EZ",
+            "name": "Preacher Curl",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "26.5"
+              },
+              {
+                "reps": "8",
+                "weight": "26.5"
+              },
+              {
+                "reps": "8",
+                "weight": "26.5"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-db-hammer-curl",
+            "tag": "DB",
+            "name": "Hammer Curl",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "10"
+              },
+              {
+                "reps": "8",
+                "weight": "10"
+              },
+              {
+                "reps": "8",
+                "weight": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "legs": [
       {
         "date": "2026-08-21T19:09:12.920Z",
@@ -927,7 +1123,141 @@
         ]
       }
     },
-    "pull": {},
+    "pull": {
+      "pull-bw-pull-up-neutral": {
+        "sets": [
+          {
+            "reps": "6",
+            "weight": "",
+            "done": false
+          },
+          {
+            "reps": "6",
+            "weight": "",
+            "done": false
+          },
+          {
+            "reps": "6",
+            "weight": "",
+            "done": false
+          }
+        ]
+      },
+      "pull-bb-row-bent-over": {
+        "sets": [
+          {
+            "reps": "8",
+            "weight": "50",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "50",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "50",
+            "done": false
+          }
+        ]
+      },
+      "pull-mc-row-seated": {
+        "sets": [
+          {
+            "reps": "8",
+            "weight": "41",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "41",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "41",
+            "done": false
+          }
+        ]
+      },
+      "pull-cb-pull-down-wide": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "39",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "39",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "39",
+            "done": false
+          }
+        ]
+      },
+      "pull-cb-face-pull": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "19.3",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "19.3",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "19.3",
+            "done": false
+          }
+        ]
+      },
+      "pull-db-hammer-curl": {
+        "sets": [
+          {
+            "reps": "8",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "10",
+            "done": false
+          }
+        ]
+      },
+      "pull-ez-preacher-curl": {
+        "sets": [
+          {
+            "reps": "8",
+            "weight": "26.5",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "26.5",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "26.5",
+            "done": false
+          }
+        ]
+      }
+    },
     "legs": {
       "legs-mc-leg-press": {
         "sets": [
