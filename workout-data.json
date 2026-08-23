@@ -367,7 +367,32 @@
         "scheme": "3x8"
       }
     ],
-    "core": []
+    "core": [
+      {
+        "id": "core-db-sit-up",
+        "tag": "DB",
+        "name": "Sit Up",
+        "scheme": "5x10"
+      },
+      {
+        "id": "core-bw-leg-raise",
+        "tag": "BW",
+        "name": "Leg Raise",
+        "scheme": "5x10"
+      },
+      {
+        "id": "core-db-russian-twist",
+        "tag": "DB",
+        "name": "Russian Twist",
+        "scheme": "5x10"
+      },
+      {
+        "id": "core-kb-side-bend",
+        "tag": "KB",
+        "name": "Side Bend",
+        "scheme": "5x10"
+      }
+    ]
   },
   "maxWeights": {
     "push-mc-chest-press": 59,
@@ -392,7 +417,10 @@
     "pull-mc-row-seated": 41,
     "pull-cb-face-pull": 19.3,
     "pull-ez-preacher-curl": 26.5,
-    "pull-db-hammer-curl": 10
+    "pull-db-hammer-curl": 10,
+    "core-db-sit-up": 10,
+    "core-db-russian-twist": 10,
+    "core-kb-side-bend": 18
   },
   "history": {
     "push": [
@@ -985,7 +1013,126 @@
         ]
       }
     ],
-    "core": []
+    "core": [
+      {
+        "date": "2026-08-23T13:00:11.897Z",
+        "type": "core",
+        "entries": [
+          {
+            "exerciseId": "core-db-sit-up",
+            "tag": "DB",
+            "name": "Sit Up",
+            "scheme": "5x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              }
+            ]
+          },
+          {
+            "exerciseId": "core-bw-leg-raise",
+            "tag": "BW",
+            "name": "Leg Raise",
+            "scheme": "5x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              }
+            ]
+          },
+          {
+            "exerciseId": "core-db-russian-twist",
+            "tag": "DB",
+            "name": "Russian Twist",
+            "scheme": "5x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              }
+            ]
+          },
+          {
+            "exerciseId": "core-kb-side-bend",
+            "tag": "KB",
+            "name": "Side Bend",
+            "scheme": "5x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "drafts": {
     "push": {
@@ -1393,6 +1540,123 @@
         ]
       }
     },
-    "core": {}
+    "core": {
+      "core-db-sit-up": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          }
+        ]
+      },
+      "core-bw-leg-raise": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "",
+            "done": false
+          }
+        ]
+      },
+      "core-db-russian-twist": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "10",
+            "done": false
+          }
+        ]
+      },
+      "core-kb-side-bend": {
+        "sets": [
+          {
+            "reps": "10",
+            "weight": "18",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "18",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "18",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "18",
+            "done": false
+          },
+          {
+            "reps": "10",
+            "weight": "18",
+            "done": false
+          }
+        ]
+      }
+    }
   }
 }
