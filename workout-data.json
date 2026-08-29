@@ -341,15 +341,21 @@
     ],
     "legs": [
       {
-        "id": "legs-mc-leg-press",
-        "tag": "MC",
-        "name": "Leg Press",
-        "scheme": "3x10"
-      },
-      {
         "id": "legs-mc-hamstring-curl",
         "tag": "MC",
         "name": "Hamstring Curl",
+        "scheme": "3x10"
+      },
+      {
+        "id": "legs-mc-hip-thrust",
+        "tag": "MC",
+        "name": "Hip Thrust",
+        "scheme": "3x8"
+      },
+      {
+        "id": "legs-mc-leg-press",
+        "tag": "MC",
+        "name": "Leg Press",
         "scheme": "3x10"
       },
       {
@@ -359,28 +365,16 @@
         "scheme": "3x12"
       },
       {
-        "id": "legs-pl-back-extension",
-        "tag": "PL",
-        "name": "Back Extension",
-        "scheme": "3x10"
+        "id": "legs-mc-leg-extension",
+        "tag": "MC",
+        "name": "Leg Extension",
+        "scheme": "3x8"
       },
       {
         "id": "legs-mc-calf-raise",
         "tag": "MC",
         "name": "Calf Raise",
-        "scheme": "3x10"
-      },
-      {
-        "id": "legs-mc-leg-extension",
-        "tag": "MC",
-        "name": "Leg Extension",
-        "scheme": "3x10"
-      },
-      {
-        "id": "legs-mc-hip-thrust",
-        "tag": "MC",
-        "name": "Hip Thrust",
-        "scheme": "3x8"
+        "scheme": "3x15"
       }
     ],
     "core": [
@@ -426,7 +420,7 @@
     "legs-mc-hip-abduction": 39,
     "legs-pl-back-extension": 20,
     "legs-mc-calf-raise": 93,
-    "legs-mc-leg-extension": 52,
+    "legs-mc-leg-extension": 54,
     "legs-mc-hip-thrust": 50,
     "pull-bb-row-bent-over": 50,
     "pull-cb-pull-down-wide": 39,
@@ -1200,6 +1194,134 @@
     ],
     "legs": [
       {
+        "date": "2026-08-29T08:50:24.684Z",
+        "type": "legs",
+        "startTime": "08:58:57",
+        "endTime": "09:50:24",
+        "entries": [
+          {
+            "exerciseId": "legs-mc-hamstring-curl",
+            "tag": "MC",
+            "name": "Hamstring Curl",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "36"
+              },
+              {
+                "reps": "10",
+                "weight": "36"
+              },
+              {
+                "reps": "10",
+                "weight": "36"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-hip-thrust",
+            "tag": "MC",
+            "name": "Hip Thrust",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "50"
+              },
+              {
+                "reps": "8",
+                "weight": "50"
+              },
+              {
+                "reps": "8",
+                "weight": "50"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-leg-press",
+            "tag": "MC",
+            "name": "Leg Press",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "80"
+              },
+              {
+                "reps": "10",
+                "weight": "80"
+              },
+              {
+                "reps": "10",
+                "weight": "80"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-hip-abduction",
+            "tag": "MC",
+            "name": "Hip Abduction",
+            "scheme": "3x12",
+            "sets": [
+              {
+                "reps": "12",
+                "weight": "39"
+              },
+              {
+                "reps": "12",
+                "weight": "39"
+              },
+              {
+                "reps": "12",
+                "weight": "39"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-leg-extension",
+            "tag": "MC",
+            "name": "Leg Extension",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "50"
+              },
+              {
+                "reps": "8",
+                "weight": "52"
+              },
+              {
+                "reps": "8",
+                "weight": "54"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-calf-raise",
+            "tag": "MC",
+            "name": "Calf Raise",
+            "scheme": "3x15",
+            "sets": [
+              {
+                "reps": "15",
+                "weight": "79"
+              },
+              {
+                "reps": "15",
+                "weight": "79"
+              },
+              {
+                "reps": "15",
+                "weight": "79"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "date": "2026-08-21T19:09:12.920Z",
         "type": "legs",
         "entries": [
@@ -1837,37 +1959,18 @@
       "legs-mc-leg-extension": {
         "sets": [
           {
-            "reps": "10",
-            "weight": "52",
+            "reps": "8",
+            "weight": "54",
             "done": false
           },
           {
-            "reps": "10",
-            "weight": "52",
+            "reps": "8",
+            "weight": "54",
             "done": false
           },
           {
-            "reps": "10",
-            "weight": "52",
-            "done": false
-          }
-        ]
-      },
-      "legs-pl-back-extension": {
-        "sets": [
-          {
-            "reps": "10",
-            "weight": "20",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "20",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "20",
+            "reps": "8",
+            "weight": "54",
             "done": false
           }
         ]
@@ -1875,18 +1978,18 @@
       "legs-mc-calf-raise": {
         "sets": [
           {
-            "reps": "10",
-            "weight": "93",
+            "reps": "15",
+            "weight": "79",
             "done": false
           },
           {
-            "reps": "10",
-            "weight": "93",
+            "reps": "15",
+            "weight": "79",
             "done": false
           },
           {
-            "reps": "10",
-            "weight": "93",
+            "reps": "15",
+            "weight": "79",
             "done": false
           }
         ]
