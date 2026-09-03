@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2">
+  <Activities>
+    <Activity Sport="Other">
+      <Id>2026-09-03T16:45:17.000Z</Id>
+      <Lap StartTime="2026-09-03T16:45:17.000Z">
+        <TotalTimeSeconds>3615</TotalTimeSeconds>
+        <DistanceMeters>0</DistanceMeters>
+        <Calories>0</Calories>
+        <Intensity>Active</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Notes>LEGS session. Hip Thrust: 8@50,10@50,10@50. Hip Abduction: 12@40,12@40,12@40. Leg Extension: 8@54,8@54,8@58. Calf Raise: 15@79,15@79,15@79. Hamstring Curl: 10@36,10@36,10@36. Back Extension: 8@15,10@10,10@10. Squat: 8@60,8@60,8@60</Notes>
+      </Lap>
+      <Creator xsi:type="Device_t" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <Name>WorkoutApp</Name>
+        <UnitId>0</UnitId>
+        <ProductID>0</ProductID>
+        <Version><VersionMajor>1</VersionMajor><VersionMinor>0</VersionMinor><BuildMajor>0</BuildMajor><BuildMinor>0</BuildMinor></Version>
+      </Creator>
+    </Activity>
+  </Activities>
+</TrainingCenterDatabase>
