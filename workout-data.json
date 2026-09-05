@@ -300,7 +300,7 @@
         "id": "pull-bb-row-bent-over",
         "tag": "BB",
         "name": "Row (Bent Over)",
-        "scheme": "3x10"
+        "scheme": "3x8"
       },
       {
         "id": "pull-row-seated--1787849971996",
@@ -315,12 +315,6 @@
         "scheme": "3x8"
       },
       {
-        "id": "pull-cb-face-pull",
-        "tag": "CB",
-        "name": "Face Pull",
-        "scheme": "3x10"
-      },
-      {
         "id": "pull-ez-preacher-curl",
         "tag": "EZ",
         "name": "Preacher Curl",
@@ -330,12 +324,6 @@
         "id": "pull-db-bicep-curl",
         "tag": "DB",
         "name": "Bicep Curl",
-        "scheme": "3x8"
-      },
-      {
-        "id": "pull-db-hammer-curl",
-        "tag": "DB",
-        "name": "Hammer Curl",
         "scheme": "3x8"
       }
     ],
@@ -1180,6 +1168,134 @@
       }
     ],
     "pull": [
+      {
+        "date": "2026-09-05T11:10:00.815Z",
+        "type": "pull",
+        "startTime": "11:11:31",
+        "endTime": "12:10:00",
+        "entries": [
+          {
+            "exerciseId": "pull-bw-pull-up-wide",
+            "tag": "BW",
+            "name": "Pull Up (Wide)",
+            "scheme": "3x6",
+            "sets": [
+              {
+                "reps": "6",
+                "weight": ""
+              },
+              {
+                "reps": "6",
+                "weight": ""
+              },
+              {
+                "reps": "6",
+                "weight": ""
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-bb-row-bent-over",
+            "tag": "BB",
+            "name": "Row (Bent Over)",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "50"
+              },
+              {
+                "reps": "8",
+                "weight": "50"
+              },
+              {
+                "reps": "8",
+                "weight": "50"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-row-seated--1787849971996",
+            "tag": "PL",
+            "name": "Row (Seated)",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-cb-pull-down-wide",
+            "tag": "CB",
+            "name": "Pull Down (Wide)",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "45"
+              },
+              {
+                "reps": "8",
+                "weight": "39"
+              },
+              {
+                "reps": "8",
+                "weight": "39"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-ez-preacher-curl",
+            "tag": "EZ",
+            "name": "Preacher Curl",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "26.5"
+              },
+              {
+                "reps": "8",
+                "weight": "26.5"
+              },
+              {
+                "reps": "8",
+                "weight": "26.5"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-db-bicep-curl",
+            "tag": "DB",
+            "name": "Bicep Curl",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "10"
+              },
+              {
+                "reps": "8",
+                "weight": "10"
+              },
+              {
+                "reps": "8",
+                "weight": "10"
+              }
+            ]
+          }
+        ]
+      },
       {
         "date": "2026-09-01T17:53:23.948Z",
         "type": "pull",
@@ -2348,18 +2464,18 @@
       "pull-bb-row-bent-over": {
         "sets": [
           {
-            "reps": "10",
-            "weight": "40",
+            "reps": "8",
+            "weight": "50",
             "done": false
           },
           {
-            "reps": "10",
-            "weight": "40",
+            "reps": "8",
+            "weight": "50",
             "done": false
           },
           {
-            "reps": "10",
-            "weight": "40",
+            "reps": "8",
+            "weight": "50",
             "done": false
           }
         ]
@@ -2368,55 +2484,17 @@
         "sets": [
           {
             "reps": "8",
-            "weight": "45",
+            "weight": "39",
             "done": false
           },
           {
             "reps": "8",
-            "weight": "45",
+            "weight": "39",
             "done": false
           },
           {
             "reps": "8",
-            "weight": "45",
-            "done": false
-          }
-        ]
-      },
-      "pull-cb-face-pull": {
-        "sets": [
-          {
-            "reps": "10",
-            "weight": "17",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "17",
-            "done": false
-          },
-          {
-            "reps": "10",
-            "weight": "17",
-            "done": false
-          }
-        ]
-      },
-      "pull-db-hammer-curl": {
-        "sets": [
-          {
-            "reps": "8",
-            "weight": "8",
-            "done": false
-          },
-          {
-            "reps": "8",
-            "weight": "8",
-            "done": false
-          },
-          {
-            "reps": "8",
-            "weight": "8",
+            "weight": "39",
             "done": false
           }
         ]
@@ -2444,17 +2522,17 @@
         "sets": [
           {
             "reps": "10",
-            "weight": "16",
+            "weight": "18",
             "done": false
           },
           {
             "reps": "10",
-            "weight": "16",
+            "weight": "18",
             "done": false
           },
           {
             "reps": "10",
-            "weight": "16",
+            "weight": "18",
             "done": false
           }
         ]
