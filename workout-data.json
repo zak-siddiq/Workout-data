@@ -268,7 +268,7 @@
         "id": "push-lateral-raise-1787262564371",
         "tag": "DB",
         "name": "Lateral Raise",
-        "scheme": "3x10"
+        "scheme": "3x8"
       },
       {
         "id": "push-mc-tricep-extension",
@@ -277,16 +277,16 @@
         "scheme": "3x12"
       },
       {
-        "id": "push-bw-press-up",
-        "tag": "BW",
-        "name": "Press Up",
-        "scheme": "3x12"
-      },
-      {
         "id": "push-bw-dip",
         "tag": "BW",
         "name": "Dip",
         "scheme": "3x10"
+      },
+      {
+        "id": "push-bw-press-up",
+        "tag": "BW",
+        "name": "Press Up",
+        "scheme": "3x12"
       }
     ],
     "pull": [
@@ -408,7 +408,7 @@
     "push-db-chest-press": 40,
     "push-db-chest-fly": 40,
     "push-lateral-raise-1787262564371": 10,
-    "push-overhead-press-1787262588400": 30,
+    "push-overhead-press-1787262588400": 35,
     "legs-mc-leg-press": 80,
     "legs-mc-hamstring-curl": 36,
     "legs-mc-hip-abduction": 40,
@@ -432,6 +432,154 @@
   },
   "history": {
     "push": [
+      {
+        "date": "2026-09-12T10:52:09.733Z",
+        "type": "push",
+        "startTime": "10:56:15",
+        "endTime": "11:52:09",
+        "entries": [
+          {
+            "exerciseId": "push-db-chest-press",
+            "tag": "DB",
+            "name": "Chest Press",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "40"
+              },
+              {
+                "reps": "10",
+                "weight": "40"
+              },
+              {
+                "reps": "10",
+                "weight": "40"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-db-chest-fly",
+            "tag": "DB",
+            "name": "Chest Fly",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "40"
+              },
+              {
+                "reps": "8",
+                "weight": "40"
+              },
+              {
+                "reps": "8",
+                "weight": "40"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-overhead-press-1787262588400",
+            "tag": "BB",
+            "name": "Overhead Press",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "35"
+              },
+              {
+                "reps": "8",
+                "weight": "35"
+              },
+              {
+                "reps": "8",
+                "weight": "35"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-lateral-raise-1787262564371",
+            "tag": "DB",
+            "name": "Lateral Raise",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "8"
+              },
+              {
+                "reps": "8",
+                "weight": "8"
+              },
+              {
+                "reps": "0",
+                "weight": "8"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-mc-tricep-extension",
+            "tag": "MC",
+            "name": "Tricep Extension",
+            "scheme": "3x12",
+            "sets": [
+              {
+                "reps": "12",
+                "weight": "64"
+              },
+              {
+                "reps": "12",
+                "weight": "64"
+              },
+              {
+                "reps": "12",
+                "weight": "64"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-bw-dip",
+            "tag": "BW",
+            "name": "Dip",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-bw-press-up",
+            "tag": "BW",
+            "name": "Press Up",
+            "scheme": "3x12",
+            "sets": [
+              {
+                "reps": "12",
+                "weight": ""
+              },
+              {
+                "reps": "8",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              }
+            ]
+          }
+        ]
+      },
       {
         "date": "2026-09-04T17:20:53.912Z",
         "type": "push",
@@ -2386,17 +2534,17 @@
       "push-lateral-raise-1787262564371": {
         "sets": [
           {
-            "reps": "10",
+            "reps": "8",
             "weight": "8",
             "done": false
           },
           {
-            "reps": "10",
+            "reps": "8",
             "weight": "8",
             "done": false
           },
           {
-            "reps": "10",
+            "reps": "8",
             "weight": "8",
             "done": false
           }
@@ -2406,17 +2554,17 @@
         "sets": [
           {
             "reps": "8",
-            "weight": "30",
+            "weight": "35",
             "done": false
           },
           {
             "reps": "8",
-            "weight": "30",
+            "weight": "35",
             "done": false
           },
           {
             "reps": "8",
-            "weight": "30",
+            "weight": "35",
             "done": false
           }
         ]
