@@ -312,7 +312,7 @@
         "id": "pull-cb-pull-down-wide",
         "tag": "CB",
         "name": "Pull Down (Wide)",
-        "scheme": "3x8"
+        "scheme": "3x10"
       },
       {
         "id": "pull-ez-preacher-curl",
@@ -427,7 +427,7 @@
     "core-kb-side-bend": 18,
     "push-tricep-pushdown-1787594229251": 21,
     "pull-row-seated--1787849971996": 18,
-    "pull-db-bicep-curl": 10,
+    "pull-db-bicep-curl": 12,
     "legs-bb-squat": 60
   },
   "history": {
@@ -1316,6 +1316,134 @@
       }
     ],
     "pull": [
+      {
+        "date": "2026-09-13T10:21:25.103Z",
+        "type": "pull",
+        "startTime": "10:19:09",
+        "endTime": "11:21:25",
+        "entries": [
+          {
+            "exerciseId": "pull-bw-pull-up-wide",
+            "tag": "BW",
+            "name": "Pull Up (Wide)",
+            "scheme": "3x6",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": ""
+              },
+              {
+                "reps": "6",
+                "weight": ""
+              },
+              {
+                "reps": "6",
+                "weight": ""
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-bb-row-bent-over",
+            "tag": "BB",
+            "name": "Row (Bent Over)",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "50"
+              },
+              {
+                "reps": "8",
+                "weight": "45"
+              },
+              {
+                "reps": "8",
+                "weight": "45"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-row-seated--1787849971996",
+            "tag": "PL",
+            "name": "Row (Seated)",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-cb-pull-down-wide",
+            "tag": "CB",
+            "name": "Pull Down (Wide)",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "39"
+              },
+              {
+                "reps": "10",
+                "weight": "39"
+              },
+              {
+                "reps": "8",
+                "weight": "39"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-ez-preacher-curl",
+            "tag": "EZ",
+            "name": "Preacher Curl",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "26.5"
+              },
+              {
+                "reps": "8",
+                "weight": "26.5"
+              },
+              {
+                "reps": "8",
+                "weight": "26.5"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-db-bicep-curl",
+            "tag": "DB",
+            "name": "Bicep Curl",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "12"
+              },
+              {
+                "reps": "8",
+                "weight": "12"
+              },
+              {
+                "reps": "8",
+                "weight": "12"
+              }
+            ]
+          }
+        ]
+      },
       {
         "date": "2026-09-05T11:10:00.815Z",
         "type": "pull",
@@ -2613,17 +2741,17 @@
         "sets": [
           {
             "reps": "8",
-            "weight": "50",
+            "weight": "45",
             "done": false
           },
           {
             "reps": "8",
-            "weight": "50",
+            "weight": "45",
             "done": false
           },
           {
             "reps": "8",
-            "weight": "50",
+            "weight": "45",
             "done": false
           }
         ]
@@ -2631,17 +2759,17 @@
       "pull-cb-pull-down-wide": {
         "sets": [
           {
-            "reps": "8",
+            "reps": "10",
             "weight": "39",
             "done": false
           },
           {
-            "reps": "8",
+            "reps": "10",
             "weight": "39",
             "done": false
           },
           {
-            "reps": "8",
+            "reps": "10",
             "weight": "39",
             "done": false
           }
@@ -2689,17 +2817,17 @@
         "sets": [
           {
             "reps": "8",
-            "weight": "10",
+            "weight": "12",
             "done": false
           },
           {
             "reps": "8",
-            "weight": "10",
+            "weight": "12",
             "done": false
           },
           {
             "reps": "8",
-            "weight": "10",
+            "weight": "12",
             "done": false
           }
         ]
