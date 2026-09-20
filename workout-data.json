@@ -433,6 +433,174 @@
   "history": {
     "push": [
       {
+        "date": "2026-09-20T09:42:35.447Z",
+        "type": "push",
+        "startTime": "10:42:32",
+        "endTime": "10:42:35",
+        "entries": [
+          {
+            "exerciseId": "push-db-chest-press",
+            "tag": "DB",
+            "name": "Chest Press",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "40"
+              },
+              {
+                "reps": "10",
+                "weight": "40"
+              },
+              {
+                "reps": "10",
+                "weight": "40"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-db-chest-fly",
+            "tag": "DB",
+            "name": "Chest Fly",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "40"
+              },
+              {
+                "reps": "8",
+                "weight": "40"
+              },
+              {
+                "reps": "8",
+                "weight": "40"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-overhead-press-1787262588400",
+            "tag": "BB",
+            "name": "Overhead Press",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "35"
+              },
+              {
+                "reps": "8",
+                "weight": "35"
+              },
+              {
+                "reps": "8",
+                "weight": "35"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-lateral-raise-1787262564371",
+            "tag": "DB",
+            "name": "Lateral Raise",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "8"
+              },
+              {
+                "reps": "8",
+                "weight": "8"
+              },
+              {
+                "reps": "8",
+                "weight": "8"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-mc-tricep-extension",
+            "tag": "MC",
+            "name": "Tricep Extension",
+            "scheme": "3x12",
+            "sets": [
+              {
+                "reps": "12",
+                "weight": "64"
+              },
+              {
+                "reps": "12",
+                "weight": "64"
+              },
+              {
+                "reps": "12",
+                "weight": "64"
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-bw-dip",
+            "tag": "BW",
+            "name": "Dip",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-bw-press-up",
+            "tag": "BW",
+            "name": "Press Up",
+            "scheme": "3x12",
+            "sets": [
+              {
+                "reps": "12",
+                "weight": ""
+              },
+              {
+                "reps": "12",
+                "weight": ""
+              },
+              {
+                "reps": "12",
+                "weight": ""
+              }
+            ]
+          },
+          {
+            "exerciseId": "push-bb-bench-press",
+            "tag": "BB",
+            "name": "Bench Press",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
         "date": "2026-09-12T10:52:09.733Z",
         "type": "push",
         "startTime": "10:56:15",
