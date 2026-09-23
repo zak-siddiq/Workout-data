@@ -172,6 +172,11 @@
         "id": "pull-row-seated--1787849971996",
         "tag": "PL",
         "name": "Row (Seated)"
+      },
+      {
+        "id": "pull-rear-delt-1790165923338",
+        "tag": "MC",
+        "name": "Rear Delt"
       }
     ],
     "legs": [
@@ -294,7 +299,7 @@
         "id": "pull-bw-pull-up-wide",
         "tag": "BW",
         "name": "Pull Up (Wide)",
-        "scheme": "3x6"
+        "scheme": "3x8"
       },
       {
         "id": "pull-bb-row-bent-over",
@@ -309,10 +314,10 @@
         "scheme": "3x10"
       },
       {
-        "id": "pull-cb-pull-down-wide",
-        "tag": "CB",
-        "name": "Pull Down (Wide)",
-        "scheme": "3x10"
+        "id": "pull-rear-delt-1790165923338",
+        "tag": "MC",
+        "name": "Rear Delt",
+        "scheme": "3x8"
       },
       {
         "id": "pull-ez-preacher-curl",
@@ -321,9 +326,15 @@
         "scheme": "3x8"
       },
       {
-        "id": "pull-db-bicep-curl",
+        "id": "pull-cb-pull-down-wide",
+        "tag": "CB",
+        "name": "Pull Down (Wide)",
+        "scheme": "3x10"
+      },
+      {
+        "id": "pull-db-hammer-curl",
         "tag": "DB",
-        "name": "Bicep Curl",
+        "name": "Hammer Curl",
         "scheme": "3x8"
       }
     ],
@@ -422,7 +433,8 @@
     "push-tricep-pushdown-1787594229251": 21,
     "pull-row-seated--1787849971996": 18,
     "pull-db-bicep-curl": 12,
-    "legs-bb-squat": 65
+    "legs-bb-squat": 65,
+    "pull-rear-delt-1790165923338": 45
   },
   "history": {
     "push": [
@@ -1458,6 +1470,154 @@
       }
     ],
     "pull": [
+      {
+        "date": "2026-09-23T12:49:41.454Z",
+        "type": "pull",
+        "startTime": "12:54:45",
+        "endTime": "13:49:41",
+        "entries": [
+          {
+            "exerciseId": "pull-bw-pull-up-wide",
+            "tag": "BW",
+            "name": "Pull Up (Wide)",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": ""
+              },
+              {
+                "reps": "8",
+                "weight": ""
+              },
+              {
+                "reps": "6",
+                "weight": ""
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-bb-row-bent-over",
+            "tag": "BB",
+            "name": "Row (Bent Over)",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "45"
+              },
+              {
+                "reps": "8",
+                "weight": "45"
+              },
+              {
+                "reps": "8",
+                "weight": "45"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-row-seated--1787849971996",
+            "tag": "PL",
+            "name": "Row (Seated)",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-rear-delt-1790165923338",
+            "tag": "MC",
+            "name": "Rear Delt",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "45"
+              },
+              {
+                "reps": "8",
+                "weight": "45"
+              },
+              {
+                "reps": "8",
+                "weight": "45"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-ez-preacher-curl",
+            "tag": "EZ",
+            "name": "Preacher Curl",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "26.5"
+              },
+              {
+                "reps": "8",
+                "weight": "26.5"
+              },
+              {
+                "reps": "8",
+                "weight": "26.5"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-cb-pull-down-wide",
+            "tag": "CB",
+            "name": "Pull Down (Wide)",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "39"
+              },
+              {
+                "reps": "10",
+                "weight": "39"
+              },
+              {
+                "reps": "10",
+                "weight": "39"
+              }
+            ]
+          },
+          {
+            "exerciseId": "pull-db-hammer-curl",
+            "tag": "DB",
+            "name": "Hammer Curl",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "10"
+              },
+              {
+                "reps": "8",
+                "weight": "10"
+              },
+              {
+                "reps": "8",
+                "weight": "10"
+              }
+            ]
+          }
+        ]
+      },
       {
         "date": "2026-09-13T10:21:25.103Z",
         "type": "pull",
@@ -3083,40 +3243,59 @@
           }
         ]
       },
-      "pull-db-bicep-curl": {
+      "pull-bw-pull-up-wide": {
         "sets": [
           {
             "reps": "8",
-            "weight": "12",
+            "weight": "",
             "done": false
           },
           {
             "reps": "8",
-            "weight": "12",
+            "weight": "",
             "done": false
           },
           {
             "reps": "8",
-            "weight": "12",
+            "weight": "",
             "done": false
           }
         ]
       },
-      "pull-bw-pull-up-wide": {
+      "pull-rear-delt-1790165923338": {
         "sets": [
           {
-            "reps": "6",
-            "weight": "",
+            "reps": "8",
+            "weight": "45",
             "done": false
           },
           {
-            "reps": "6",
-            "weight": "",
+            "reps": "8",
+            "weight": "45",
             "done": false
           },
           {
-            "reps": "6",
-            "weight": "",
+            "reps": "8",
+            "weight": "45",
+            "done": false
+          }
+        ]
+      },
+      "pull-db-hammer-curl": {
+        "sets": [
+          {
+            "reps": "8",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "10",
+            "done": false
+          },
+          {
+            "reps": "8",
+            "weight": "10",
             "done": false
           }
         ]
