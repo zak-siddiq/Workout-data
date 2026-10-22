@@ -384,15 +384,15 @@
         "scheme": "5x10"
       },
       {
-        "id": "core-db-russian-twist",
-        "tag": "DB",
-        "name": "Russian Twist",
-        "scheme": "5x10"
-      },
-      {
         "id": "core-kb-side-bend",
         "tag": "KB",
         "name": "Side Bend",
+        "scheme": "5x10"
+      },
+      {
+        "id": "core-db-russian-twist",
+        "tag": "DB",
+        "name": "Russian Twist",
         "scheme": "5x10"
       }
     ]
@@ -3457,6 +3457,126 @@
       }
     ],
     "core": [
+      {
+        "date": "2026-10-22T19:14:17.419Z",
+        "type": "core",
+        "startTime": "19:36:56",
+        "endTime": "20:14:17",
+        "entries": [
+          {
+            "exerciseId": "core-db-sit-up",
+            "tag": "DB",
+            "name": "Sit Up",
+            "scheme": "5x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              }
+            ]
+          },
+          {
+            "exerciseId": "core-bw-leg-raise",
+            "tag": "BW",
+            "name": "Leg Raise",
+            "scheme": "5x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              },
+              {
+                "reps": "10",
+                "weight": ""
+              }
+            ]
+          },
+          {
+            "exerciseId": "core-kb-side-bend",
+            "tag": "KB",
+            "name": "Side Bend",
+            "scheme": "5x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              },
+              {
+                "reps": "10",
+                "weight": "18"
+              }
+            ]
+          },
+          {
+            "exerciseId": "core-db-russian-twist",
+            "tag": "DB",
+            "name": "Russian Twist",
+            "scheme": "5x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              },
+              {
+                "reps": "10",
+                "weight": "10"
+              }
+            ]
+          }
+        ]
+      },
       {
         "date": "2026-10-14T18:39:40.886Z",
         "type": "core",
