@@ -334,10 +334,10 @@
     ],
     "legs": [
       {
-        "id": "legs-bb-squat",
-        "tag": "BB",
-        "name": "Squat",
-        "scheme": "3x8"
+        "id": "legs-mc-leg-extension",
+        "tag": "MC",
+        "name": "Leg Extension",
+        "scheme": "3x10"
       },
       {
         "id": "legs-mc-hip-thrust",
@@ -346,21 +346,9 @@
         "scheme": "3x10"
       },
       {
-        "id": "legs-mc-hip-abduction",
-        "tag": "MC",
-        "name": "Hip Abduction",
-        "scheme": "3x12"
-      },
-      {
         "id": "legs-mc-hamstring-curl",
         "tag": "MC",
         "name": "Hamstring Curl",
-        "scheme": "3x10"
-      },
-      {
-        "id": "legs-mc-leg-extension",
-        "tag": "MC",
-        "name": "Leg Extension",
         "scheme": "3x10"
       },
       {
@@ -368,6 +356,12 @@
         "tag": "MC",
         "name": "Calf Raise",
         "scheme": "3x15"
+      },
+      {
+        "id": "legs-bb-squat",
+        "tag": "BB",
+        "name": "Squat",
+        "scheme": "3x8"
       }
     ],
     "core": [
@@ -413,7 +407,7 @@
     "legs-mc-hip-abduction": 42,
     "legs-pl-back-extension": 20,
     "legs-mc-calf-raise": 93,
-    "legs-mc-leg-extension": 58,
+    "legs-mc-leg-extension": 64,
     "legs-mc-hip-thrust": 50,
     "pull-bb-row-bent-over": 50,
     "pull-cb-pull-down-wide": 45,
@@ -2926,6 +2920,114 @@
     ],
     "legs": [
       {
+        "date": "2026-10-27T19:14:20.238Z",
+        "type": "legs",
+        "startTime": "18:34:42",
+        "endTime": "19:14:20",
+        "entries": [
+          {
+            "exerciseId": "legs-mc-leg-extension",
+            "tag": "MC",
+            "name": "Leg Extension",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "64"
+              },
+              {
+                "reps": "10",
+                "weight": "64"
+              },
+              {
+                "reps": "10",
+                "weight": "64"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-hip-thrust",
+            "tag": "MC",
+            "name": "Hip Thrust",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "50"
+              },
+              {
+                "reps": "10",
+                "weight": "50"
+              },
+              {
+                "reps": "10",
+                "weight": "50"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-hamstring-curl",
+            "tag": "MC",
+            "name": "Hamstring Curl",
+            "scheme": "3x10",
+            "sets": [
+              {
+                "reps": "10",
+                "weight": "38"
+              },
+              {
+                "reps": "10",
+                "weight": "38"
+              },
+              {
+                "reps": "10",
+                "weight": "38"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-mc-calf-raise",
+            "tag": "MC",
+            "name": "Calf Raise",
+            "scheme": "3x15",
+            "sets": [
+              {
+                "reps": "15",
+                "weight": "79"
+              },
+              {
+                "reps": "15",
+                "weight": "79"
+              },
+              {
+                "reps": "15",
+                "weight": "79"
+              }
+            ]
+          },
+          {
+            "exerciseId": "legs-bb-squat",
+            "tag": "BB",
+            "name": "Squat",
+            "scheme": "3x8",
+            "sets": [
+              {
+                "reps": "8",
+                "weight": "65"
+              },
+              {
+                "reps": "8",
+                "weight": "65"
+              },
+              {
+                "reps": "8",
+                "weight": "65"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "date": "2026-09-24T14:43:32.259Z",
         "type": "legs",
         "startTime": "14:58:31",
@@ -4237,25 +4339,6 @@
           }
         ]
       },
-      "legs-mc-hip-abduction": {
-        "sets": [
-          {
-            "reps": "12",
-            "weight": "42",
-            "done": false
-          },
-          {
-            "reps": "12",
-            "weight": "42",
-            "done": false
-          },
-          {
-            "reps": "12",
-            "weight": "42",
-            "done": false
-          }
-        ]
-      },
       "legs-mc-hip-thrust": {
         "sets": [
           {
@@ -4279,17 +4362,17 @@
         "sets": [
           {
             "reps": "10",
-            "weight": "55",
+            "weight": "64",
             "done": false
           },
           {
             "reps": "10",
-            "weight": "55",
+            "weight": "64",
             "done": false
           },
           {
             "reps": "10",
-            "weight": "55",
+            "weight": "64",
             "done": false
           }
         ]
